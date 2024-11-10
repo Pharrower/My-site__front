@@ -1,0 +1,110 @@
+.product-inf {
+    padding: 50px 0;
+}
+
+.product-inf__content {
+    display: flex;
+    gap: 65px;
+}
+
+.product-inf__text {
+    padding-top: 30px;
+    padding-right: 88px;
+}
+
+.product-inf__top {
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border-grey);
+    padding-bottom: 28px;
+}
+
+.product-inf__item:not(:last-of-type) {
+    margin-bottom: 36px;
+}
+
+.product-inf__item:last-of-type {
+    margin-bottom: 48px;
+}
+
+.product-inf__pic {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.product-inf__title {
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--dark-primary);
+}
+
+.product-inf__price {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--dark-primary);
+}
+
+.product-inf__subtitle {
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark-primary);
+}
+
+.product-inf__description {
+    margin: 0;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark-primary);
+}
+
+.product-inf__chars {
+    display: flex;
+    gap: 70px;
+}
+
+.product-inf__chars-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-inf__chars-item:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    right: inherit;
+    right: -50%;
+    top: 50%;
+    width: 1px;
+    height: calc(100% - 10px);
+    background-color: var(--border-grey);
+    transform: translateY(-50%);
+}
+
+.product-inf__chars-caption {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--dark-primary);
+}
+
+.product-inf__chars-text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--dark-primary);
+}
+
+.product-inf__btns {
+    display: flex;
+    gap: 16px;
+}
+
+

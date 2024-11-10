@@ -1,0 +1,35 @@
+:root {
+    --dark-primary: #4b3925;
+    --primary: #81694e;
+    --light-grey: #f9f9f9;
+    --border-grey: #ebe8f4;
+    --white: #fff;
+    --border-dark: #cac6da;
+    --images--dark-chair: #f6f6f6;
+  
+    --font-family: "Regular", sans-serif;
+    --second-family: "Bold", sans-serif;
+  
+    --gap: 20px;
+    --container-width: 1280px;
+    --container-offset: 15px;
+  
+    --main-trs: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+  
+    --outline: 2px dashed cerrentColor;
+    --outline-offset: 2px;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}

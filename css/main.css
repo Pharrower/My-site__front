@@ -1,0 +1,96 @@
+/* global */
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/_root.css);
+
+/* main */
+/* Блок page*/
+@import url(../blocks/_page.css);
+
+/* Блок header*/
+@import url(../blocks/_header.css);
+@import url(../blocks/_burger.css);
+
+/* Блок nav*/
+@import url(../blocks/_nav.css);
+
+/* Блок hero*/
+@import url(../blocks/_hero.css);
+
+/* Блок кнопки */
+@import url(../blocks/_btn.css);
+
+/* Блок заголовков */
+@import url(../blocks/_title.css);
+
+/* Блок grid */
+@import url(../blocks/_grid.css);
+
+/* Блок benefits */
+@import url(../blocks/_benefits.css);
+
+/* Блок products */
+@import url(../blocks/_products.css);
+
+/* Блок product */
+@import url(../blocks/_product.css);
+@import url(/blocks/_centered.css);
+
+/* Блок newsletter */
+@import url(../blocks/_newsletter.css);
+
+/* Блок формы */
+@import url(../blocks/_form.css);
+
+/* Блок about */
+@import url(../blocks/_about.css);
+
+/* Блок footer */
+@import url(../blocks/_footer.css);
+
+/* Блок social */
+@import url(../blocks/_social.css);
+
+
+
+/* about */
+/* Блок notification */
+@import url(../blocks/_notification.css);
+/* Блок about-hero */
+@import url(../blocks/_about-hero.css);
+/* Блок brend-inf */
+@import url(../blocks/_brend-inf.css);
+
+
+
+/* catalog */
+/* Блок inner-hero */
+@import url(../blocks/_inner-hero.css);
+/* Блок catalog */
+@import url(../blocks/_catalog.css);
+/* Блок filters */
+@import url(../blocks/_filters.css);
+/* Блок checkbox */
+@import url(../blocks/_custom-checkbox.css);
+
+
+
+/* product */
+@import url(../blocks/_product-inf.css);
+/* stepper */
+@import url(../blocks/_stepper.css);
+
+
+
+/* cart */
+@import url(../blocks/_cart.css);
+
+
+
+/* login, register, profile */
+@import url(../blocks/_login.css);
+
+
+/* Адаптив */
+@import url(../blocks/_media.css);
+

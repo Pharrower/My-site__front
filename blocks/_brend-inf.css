@@ -1,0 +1,44 @@
+.brend-inf {
+    padding: 60px 0;
+}
+
+.brend-inf__content {
+    display: flex;
+    gap: 16px;
+}
+
+.brend-inf__text,
+.brend-inf__image {
+    width: calc((100% - 16px)/2);
+}
+
+.brend-inf__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px;
+    padding-right: 75px;
+    padding-bottom: 54px;
+    color: var(--white);
+    background-color: var(--dark-primary);
+}
+
+.brend-inf__title {
+    color: var(--white);
+}
+
+.brend-inf__description {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.brend-inf__btn {
+    margin-top: auto;
+}
+
+.brend-inf__pic {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
