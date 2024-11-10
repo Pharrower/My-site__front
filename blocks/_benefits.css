@@ -13,19 +13,19 @@
 }
 
 .benefits__item--next {
-    background-image: url(/images/benefits-1.svg);
+    background-image: url(../images/benefits-1.svg);
 }
 
 .benefits__item--made {
-    background-image: url(/images/benefits-2.svg);
+    background-image: url(../images/benefits-2.svg);
 }
 
 .benefits__item--prices {
-    background-image: url(/images/benefits-3.svg);
+    background-image: url(../images/benefits-3.svg);
 }
 
 .benefits__item--packaging {
-    background-image: url(/images/benefits-4.svg);
+    background-image: url(../images/benefits-4.svg);
 }
 
 .benefits__subtitle {

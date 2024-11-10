@@ -25,7 +25,7 @@
     position: absolute;
     inset: -1px;
     z-index: 2;
-    background-image: url("/images/checkbox.svg");
+    background-image: url("../images/checkbox.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
